@@ -9,8 +9,8 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone <URL_репозитория>
-    cd <имя_директории>
+    git clone https://github.com/Fastroer/COMCAD_Test.git
+    cd COMCAD_Test
     ```
 
 2. Убедитесь, что у вас установлен Poetry. Если нет, установите его, следуя [инструкциям](https://python-poetry.org/docs/#installation).
