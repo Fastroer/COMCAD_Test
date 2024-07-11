@@ -24,7 +24,7 @@ async def test_download_repo():
     try:
         await download_repo(
             'https://gitea.radium.group/radium/project-configuration',
-            temp_dir
+            temp_dir,
         )
     finally:
         if os.path.exists(temp_dir):

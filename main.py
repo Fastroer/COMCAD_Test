@@ -10,7 +10,7 @@ from src.hasher import compute_hashes
 logging.basicConfig(
     level=logging.INFO,
     format='{asctime} - {levelname} - {message}',
-    style='{'
+    style='{',
 )
 
 
@@ -37,7 +37,7 @@ async def main() -> None:
         hashes = compute_hashes(temp_dir)
     except Exception as hash_error:
         log_error(
-            'An error occurred during hash computation: {0}'.format(hash_error)
+            'An error occured during hash computation: {0}'.format(hash_error),
         )
         return
 

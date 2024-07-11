@@ -7,7 +7,7 @@ from typing import BinaryIO, Dict, Generator
 
 def read_file_in_chunks(
     file_obj: BinaryIO,
-    size: int
+    size: int,
 ) -> Generator[bytes, None, None]:
     """
     Read file in chunks of given size.
